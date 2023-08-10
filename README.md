@@ -17,7 +17,7 @@ target_cpu="x64" # only for x64 build
 
 is_debug = false
 is_component_build = false
-dcheck_always_on = true
+dcheck_always_on = false
 symbol_level = 0
 blink_symbol_level=0
 v8_symbol_level=0
