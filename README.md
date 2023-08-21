@@ -2,7 +2,7 @@
 
 Chromium for macOS, built from official unmodified source code
 
--[x] Play Html5
+- [x] Play Html5
 
 Go to Release to download
 
