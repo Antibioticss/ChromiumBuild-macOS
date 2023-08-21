@@ -2,6 +2,8 @@
 
 Chromium for macOS, built from official unmodified source code
 
+-[x] Play Html5
+
 Go to Release to download
 
 ## Build environment
@@ -18,9 +20,13 @@ target_cpu="x64" # only for x64 build
 is_debug = false
 is_component_build = false
 dcheck_always_on = false
+is_official_build=true
+
 symbol_level = 0
 blink_symbol_level=0
 v8_symbol_level=0
+chrome_pgo_phase=0
+
 enable_nacl = false
 
 proprietary_codecs = true
